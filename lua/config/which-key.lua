@@ -38,6 +38,12 @@ local mappings = {
     S = { "<cmd>PackerStatus<cr>", "Status" },
     u = { "<cmd>PackerUpdate<cr>", "Update" },
   },
+  h = {
+    name = "Hop",
+    h = { "<cmd>HopWordCurrentLine<cr>", "Current line" },
+    w = { "<cmd>HopChar2<cr>", "2 Chars" },
+    p = { "<cmd>HopPattern<cr>", "Pattern" }
+  }
 }
 
 which_key.setup(setup)
