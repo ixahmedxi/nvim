@@ -59,6 +59,7 @@ return packer.startup(function(use)
   use "lewis6991/gitsigns.nvim"
   use "abecodes/tabout.nvim"
   use "phaazon/hop.nvim"
+  use "tpope/vim-surround"
 
   if PACKER_BOOTSTRAP then
     require("packer").sync()
