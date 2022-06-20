@@ -55,6 +55,7 @@ return packer.startup(function(use)
   use "famiu/bufdelete.nvim"
   use "lukas-reineke/indent-blankline.nvim"
   use "akinsho/toggleterm.nvim"
+  use "lewis6991/gitsigns.nvim"
 
   if PACKER_BOOTSTRAP then
     require("packer").sync()
