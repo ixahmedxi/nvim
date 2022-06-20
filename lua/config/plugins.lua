@@ -36,6 +36,7 @@ return packer.startup(function(use)
   use "akinsho/bufferline.nvim"
   use "nvim-lualine/lualine.nvim"
   use "kyazdani42/nvim-tree.lua"
+  use "nvim-telescope/telescope.nvim"
 
   use "hrsh7th/nvim-cmp"
   use "hrsh7th/cmp-buffer"
