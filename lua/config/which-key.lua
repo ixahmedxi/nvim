@@ -24,6 +24,8 @@ local opts = {
 }
 
 local mappings = {
+  e = { "<cmd>NvimTreeToggle<cr>", "Toggle Explorer" },
+  r = { "<cmd>NvimTreeRefresh<cr>", "Refresh Explorer" },
   w = { "<cmd>w<cr>", "Save" },
   q = { "<cmd>Bdelete<cr>", "Close" },
   p = {
