@@ -48,6 +48,8 @@ return packer.startup(function(use)
   use "rafamadriz/friendly-snippets"
 
   use "windwp/nvim-autopairs"
+  use "numToStr/Comment.nvim"
+  use "JoosepAlviste/nvim-ts-context-commentstring"
   use "ethanholz/nvim-lastplace"
   use "lewis6991/impatient.nvim"
   use "famiu/bufdelete.nvim"
