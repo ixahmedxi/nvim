@@ -60,6 +60,7 @@ return packer.startup(function(use)
   use "abecodes/tabout.nvim"
   use "phaazon/hop.nvim"
   use "tpope/vim-surround"
+  use "aserowy/tmux.nvim"
 
   use "williamboman/nvim-lsp-installer"
   use "neovim/nvim-lspconfig"

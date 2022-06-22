@@ -108,6 +108,7 @@ require("null-ls").setup({
   sources = {
     require("null-ls").builtins.diagnostics.eslint_d,
     require("null-ls").builtins.formatting.prettierd,
+    require("null-ls").builtins.formatting.stylua,
   },
   on_attach = function(client, bufnr)
     if client.supports_method("textDocument/formatting") then
