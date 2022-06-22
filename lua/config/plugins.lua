@@ -61,6 +61,13 @@ return packer.startup(function(use)
   use "phaazon/hop.nvim"
   use "tpope/vim-surround"
 
+  use "williamboman/nvim-lsp-installer"
+  use "neovim/nvim-lspconfig"
+  use "b0o/schemastore.nvim"
+  use "jose-elias-alvarez/typescript.nvim"
+  use "windwp/nvim-ts-autotag"
+  use "jose-elias-alvarez/null-ls.nvim"
+
   if PACKER_BOOTSTRAP then
     require("packer").sync()
   end

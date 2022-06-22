@@ -43,6 +43,14 @@ local mappings = {
     h = { "<cmd>HopWordCurrentLine<cr>", "Current line" },
     w = { "<cmd>HopChar2<cr>", "2 Chars" },
     p = { "<cmd>HopPattern<cr>", "Pattern" }
+  },
+  t = {
+    name = "Typescript",
+    f = { "<cmd>lua require('typescript').actions.fixAll()<cr>", "Fix All" },
+    r = { "<cmd>TypescriptRenameFile<cr>", "Rename File" },
+    u = { "<cmd>lua require('typescript').actions.removeUnused()<cr>", "Remove Unused" },
+    o = { "<cmd>lua require('typescript').actions.oranizeImports()<cr>", "Organize Imports" },
+    a = { "<cmd>lua require('typescript').actions.addMissingImports()<cr>", "Add Missing Imports" },
   }
 }
 
