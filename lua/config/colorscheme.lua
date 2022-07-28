@@ -1,4 +1,5 @@
-vim.o.background = "dark"
-vim.g.vscode_italic_comment = 1
-vim.g.vscode_disable_nvimtree_bg = true
-vim.cmd([[colorscheme tokyodark]])
+vim.g.catppuccin_flavour = "mocha"
+
+require("catppuccin").setup()
+
+vim.cmd([[colorscheme catppuccin]])
